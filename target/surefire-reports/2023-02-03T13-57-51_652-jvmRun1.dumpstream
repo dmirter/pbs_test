@@ -1,0 +1,304 @@
+# Created at 2023-02-03T13:58:57.442
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-02-03T13:59:10.020
+Unexpected IOException with stream:   [31mИ [0m[31mнажимаем на уже созданную конфигурацию [0m[31m[1m"ATconf"[0m [90m# BusinessObjects.BOSteps.нажимаемНаУжеСозданнуюКонфигурацию(java.lang.String)[0m
+      [31morg.opentest4j.AssertionFailedError: Превышено максимальное время ожидания элемента
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea533fce9002290084110d393d6e855f
+*** Element info: {Using=xpath, value=//span[contains(text(), 'ATconf')]}
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at conf.helpclass.CheckElementPresence(helpclass.java:105)
+	at conf.helpclass.clickElementPresent(helpclass.java:126)
+	at BusinessObjects.BOPageObject.CreatedConfClick(BOPageObject.java:50)
+	at BusinessObjects.BOSteps.нажимаемНаУжеСозданнуюКонфигурацию(BOSteps.java:51)
+	at ✽.нажимаем на уже созданную конфигурацию "ATconf"(classpath:tests/BO-Table-Selection-Delete.feature:25)
+[0m
+
+
+# Created at 2023-02-03T13:59:10.022
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на кнопку Удалить конфигурацию[0m         [90m# BusinessObjects.BOSteps.нажимаемНаКнопкуУдалитьКонфигурацию()[0m
+
+
+# Created at 2023-02-03T13:59:10.022
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на кнопку ОК[0m                           [90m# BusinessObjects.BOSteps.нажимаемНаКнопкуОК()[0m
+
+
+# Created at 2023-02-03T13:59:10.023
+Unexpected IOException with stream:   [36mТогда [0m[36mконфигурация БО удалена[0m                     [90m# BusinessObjects.BOSteps.конфигурацияБОУдалена()[0m
+
+
+# Created at 2023-02-03T13:59:10.030
+Unexpected IOException: 8,1,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,\0423\0434\0430\043B\0435\043D\0438\0435 \043A\043E\043D\0444\0438\0433\0443\0440\0430\0446\0438\0438 \0411\041E,null,\041F\0440\0435\0432\044B\0448\0435\043D\043E \043C\0430\043A\0441\0438\043C\0430\043B\044C\043D\043E\0435 \0432\0440\0435\043C\044F \043E\0436\0438\0434\0430\043D\0438\044F \044D\043B\0435\043C\0435\043D\0442\0430\000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A*** Element info: {Using=xpath\002C value=//span[contains(text()\002C 'ATconf')]},null,\041F\0440\0435\0432\044B\0448\0435\043D\043E \043C\0430\043A\0441\0438\043C\0430\043B\044C\043D\043E\0435 \0432\0440\0435\043C\044F \043E\0436\0438\0434\0430\043D\0438\044F \044D\043B\0435\043C\0435\043D\0442\0430\000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A*** Element info: {Using=xpath\002C value=//span[contains(text()\002C 'ATconf')]},\041F\0440\0435\0432\044B\0448\0435\043D\043E \043C\0430\043A\0441\0438\043C\0430\043B\044C\043D\043E\0435 \0432\0440\0435\043C\044F \043E\0436\0438\0434\0430\043D\0438\044F \044D\043B\0435\043C\0435\043D\0442\0430\000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A*** Element info: {Using=xpath\002C value=//span[contains(text()\002C 'ATconf')]},org.opentest4j.AssertionFailedError: \000A\041F\0440\0435\0432\044B\0448\0435\043D\043E \043C\0430\043A\0441\0438\043C\0430\043B\044C\043D\043E\0435 \0432\0440\0435\043C\044F \043E\0436\0438\0434\0430\043D\0438\044F \044D\043B\0435\043C\0435\043D\0442\0430\000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A*** Element info: {Using=xpath\002C value=//span[contains(text()\002C 'ATconf')]}\000A
+
+
+# Created at 2023-02-03T13:59:10.031
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,null,null,null
+
+
+# Created at 2023-02-03T13:59:10.035
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,null,null,null
+
+
+# Created at 2023-02-03T13:59:10.035
+Unexpected IOException: 5,1,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,\0420\0435\0434\0430\043A\0442\0438\0440\043E\0432\0430\043D\0438\0435 \043A\043E\043D\0444\0438\0433\0443\0440\0430\0446\0438\0438 \0411\041E,null,null,null
+
+
+# Created at 2023-02-03T13:59:10.046
+Unexpected IOException with stream: 
+@BasicEdit
+Сценарий: Редактирование конфигурации БО                                             [90m# tests/BO-Table-Selection-Edit.feature:6[0m
+
+
+# Created at 2023-02-03T13:59:10.051
+Unexpected IOException with stream:   [31mДано [0m[31mАвторизовались в системе[0m                                                      [90m# t1.TablesSteps.авторизовалисьВСистеме()[0m
+      [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea533fce9002290084110d393d6e855f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at conf.Config.setDriverRequest(Config.java:36)
+	at t1.TablesPageObject.OpenBasePage(TablesPageObject.java:12)
+	at t1.TablesSteps.авторизовалисьВСистеме(TablesSteps.java:19)
+	at ✽.Авторизовались в системе(classpath:tests/BO-Table-Selection-Edit.feature:7)
+[0m
+
+
+# Created at 2023-02-03T13:59:10.052
+Unexpected IOException with stream:   [36mКогда [0m[36mОткрыта главная страница[0m                                                     [90m# t1.TablesSteps.открытаглавнаястраница()[0m
+
+
+# Created at 2023-02-03T13:59:10.052
+Unexpected IOException with stream:   [36mИ [0m[36mНажимаем на кнопку Модуль Аналитики[0m                                              [90m# t1.TablesSteps.нажимаемНаКнопкуМодульАналитики()[0m
+
+
+# Created at 2023-02-03T13:59:10.053
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на кнопку Бизнес объекты[0m                                                [90m# BusinessObjects.BOSteps.НажимаемНаКнопкуБизнесОбъекты()[0m
+
+
+# Created at 2023-02-03T13:59:10.053
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на уже созданную конфигурацию [0m[36m[1m"ATConfiguration"[0m                         [90m# BusinessObjects.BOSteps.нажимаемНаУжеСозданнуюКонфигурацию(java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.055
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на кнопку Редактировать конфигурацию[0m                                    [90m# BusinessObjects.BOSteps.нажимаемНаКнопкуРедактироватьКонфигурацию()[0m
+
+
+# Created at 2023-02-03T13:59:10.056
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на поле [0m[36m[1m"Имя конфигурации"[0m[36m и изменяем название конфигурации на [0m[36m[1m"ATconf"[0m [90m# BusinessObjects.BOSteps.нажимаемНаПолеИИзменяемНазваниеКонфигурацииНа(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.056
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем Сохранить[0m                                                               [90m# BusinessObjects.BOSteps.нажимаемСохранить()[0m
+
+
+# Created at 2023-02-03T13:59:10.057
+Unexpected IOException with stream:   [36mТогда [0m[36mконфигурация БО изменена[0m                                                     [90m# BusinessObjects.BOSteps.конфигурацияБОИзменена()[0m
+
+
+# Created at 2023-02-03T13:59:10.060
+Unexpected IOException: 7,1,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,\0420\0435\0434\0430\043A\0442\0438\0440\043E\0432\0430\043D\0438\0435 \043A\043E\043D\0444\0438\0433\0443\0440\0430\0446\0438\0438 \0411\041E,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A
+
+
+# Created at 2023-02-03T13:59:10.061
+Unexpected IOException: 5,1,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,\0420\0435\0434\0430\043A\0442\0438\0440\043E\0432\0430\043D\0438\0435 \0432\044B\0431\043E\0440\043A\0438,null,null,null
+
+
+# Created at 2023-02-03T13:59:10.066
+Unexpected IOException with stream: 
+@BasicEdit
+Сценарий: Редактирование выборки                                             [90m# tests/BO-Table-Selection-Edit.feature:25[0m
+
+
+# Created at 2023-02-03T13:59:10.090
+Unexpected IOException with stream:   [31mИ [0m[31mНажимаем на кнопку Выборки[0m                                               [90m# Selections.SelectionsSteps.нажимаемНаКнопкуВыборки()[0m
+      [31morg.opentest4j.AssertionFailedError: Превышено максимальное время ожидания элемента
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea533fce9002290084110d393d6e855f
+*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Выборки']}
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at conf.helpclass.CheckElementToBeClickable(helpclass.java:29)
+	at conf.helpclass.clickElementClickable(helpclass.java:110)
+	at Selections.SelectionsPageObject.ClickSelectionButton(SelectionsPageObject.java:10)
+	at Selections.SelectionsSteps.нажимаемНаКнопкуВыборки(SelectionsSteps.java:11)
+	at ✽.Нажимаем на кнопку Выборки(classpath:tests/BO-Table-Selection-Edit.feature:26)
+[0m
+
+
+# Created at 2023-02-03T13:59:10.091
+Unexpected IOException with stream:   [36mИ [0m[36mНажимаем на необходимую выборку [0m[36m[1m"ATselection"[0m                            [90m# Selections.SelectionsSteps.нажимаемНаНеобходимуюВыборку(java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.092
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем кнопку Редактировать выборку[0m                                    [90m# Selections.SelectionsSteps.нажимаемКнопкуРедактироватьВыборку()[0m
+
+
+# Created at 2023-02-03T13:59:10.092
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на поле [0m[36m[1m"Имя выборки"[0m[36m и изменяем название выборки на [0m[36m[1m"ATselect"[0m [90m# Selections.SelectionsSteps.нажимаемНаПолеИИзменяемНазваниеВыборкиНа(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.093
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем ОК[0m                                                              [90m# BusinessObjects.BOSteps.нажимаемОК()[0m
+
+
+# Created at 2023-02-03T13:59:10.093
+Unexpected IOException with stream:   [36mТогда [0m[36mвыборка изменена[0m                                                     [90m# Selections.SelectionsSteps.выборкаИзменена()[0m
+
+
+# Created at 2023-02-03T13:59:10.098
+Unexpected IOException: 8,1,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,\0420\0435\0434\0430\043A\0442\0438\0440\043E\0432\0430\043D\0438\0435 \0432\044B\0431\043E\0440\043A\0438,null,\041F\0440\0435\0432\044B\0448\0435\043D\043E \043C\0430\043A\0441\0438\043C\0430\043B\044C\043D\043E\0435 \0432\0440\0435\043C\044F \043E\0436\0438\0434\0430\043D\0438\044F \044D\043B\0435\043C\0435\043D\0442\0430\000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A*** Element info: {Using=xpath\002C value=//nz-tree-node-title [@title='\0412\044B\0431\043E\0440\043A\0438']},null,\041F\0440\0435\0432\044B\0448\0435\043D\043E \043C\0430\043A\0441\0438\043C\0430\043B\044C\043D\043E\0435 \0432\0440\0435\043C\044F \043E\0436\0438\0434\0430\043D\0438\044F \044D\043B\0435\043C\0435\043D\0442\0430\000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A*** Element info: {Using=xpath\002C value=//nz-tree-node-title [@title='\0412\044B\0431\043E\0440\043A\0438']},\041F\0440\0435\0432\044B\0448\0435\043D\043E \043C\0430\043A\0441\0438\043C\0430\043B\044C\043D\043E\0435 \0432\0440\0435\043C\044F \043E\0436\0438\0434\0430\043D\0438\044F \044D\043B\0435\043C\0435\043D\0442\0430\000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A*** Element info: {Using=xpath\002C value=//nz-tree-node-title [@title='\0412\044B\0431\043E\0440\043A\0438']},org.opentest4j.AssertionFailedError: \000A\041F\0440\0435\0432\044B\0448\0435\043D\043E \043C\0430\043A\0441\0438\043C\0430\043B\044C\043D\043E\0435 \0432\0440\0435\043C\044F \043E\0436\0438\0434\0430\043D\0438\044F \044D\043B\0435\043C\0435\043D\0442\0430\000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A*** Element info: {Using=xpath\002C value=//nz-tree-node-title [@title='\0412\044B\0431\043E\0440\043A\0438']}\000A
+
+
+# Created at 2023-02-03T13:59:10.100
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,null,null,null
+
+
+# Created at 2023-02-03T13:59:10.102
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,null,null,null
+
+
+# Created at 2023-02-03T13:59:10.102
+Unexpected IOException: 5,1,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,\0421\043E\0437\0434\0430\043D\0438\0435 \0424\0443\043D\043A\0446\0438\0438,null,null,null
+
+
+# Created at 2023-02-03T13:59:10.111
+Unexpected IOException with stream: 
+@BasicFuncScCreation
+Сценарий: Создание Функции                                 [90m# tests/Function-Scenario-Creation.feature:6[0m
+
+
+# Created at 2023-02-03T13:59:10.116
+Unexpected IOException with stream:   [31mДано [0m[31mАвторизовались в системе[0m                            [90m# t1.TablesSteps.авторизовалисьВСистеме()[0m
+      [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea533fce9002290084110d393d6e855f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at conf.Config.setDriverRequest(Config.java:36)
+	at t1.TablesPageObject.OpenBasePage(TablesPageObject.java:12)
+	at t1.TablesSteps.авторизовалисьВСистеме(TablesSteps.java:19)
+	at ✽.Авторизовались в системе(classpath:tests/Function-Scenario-Creation.feature:7)
+[0m
+
+
+# Created at 2023-02-03T13:59:10.116
+Unexpected IOException with stream:   [36mКогда [0m[36mОткрыта главная страница[0m                           [90m# t1.TablesSteps.открытаглавнаястраница()[0m
+
+
+# Created at 2023-02-03T13:59:10.117
+Unexpected IOException with stream:   [36mИ [0m[36mНажимаем на кнопку Модуль Аналитики[0m                    [90m# t1.TablesSteps.нажимаемНаКнопкуМодульАналитики()[0m
+
+
+# Created at 2023-02-03T13:59:10.118
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на кнопку Функции[0m                             [90m# Functions.FunctionSteps.НажимаемНаКнопкуФункции()[0m
+
+
+# Created at 2023-02-03T13:59:10.119
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем на кнопку создать функцию[0m                     [90m# Functions.FunctionSteps.нажимаемНаКнопкуСоздатьФункцию()[0m
+
+
+# Created at 2023-02-03T13:59:10.119
+Unexpected IOException with stream:   [36mИ [0m[36mзаполняем имя функции: [0m[36m[1m"ATFunction"[0m                    [90m# Functions.FunctionSteps.заполняемИмяФункции(java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.120
+Unexpected IOException with stream:   [36mИ [0m[36mвыбираем группу функции: [0m[36m[1m"Группа"[0m[36m, [0m[36m[1m"ROOT"[0m              [90m# Functions.FunctionSteps.выбираемГруппуФункции(java.lang.String,java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.120
+Unexpected IOException with stream:   [36mИ [0m[36mзаполняем описание функции: [0m[36m[1m"Description"[0m              [90m# Functions.FunctionSteps.заполняемОписаниеФункции(java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.121
+Unexpected IOException with stream:   [36mИ [0m[36mзаполняем код функции[0m                                  [90m# Functions.FunctionSteps.заполняемКодФункции()[0m
+
+
+# Created at 2023-02-03T13:59:10.121
+Unexpected IOException with stream:   [36mИ [0m[36mвыбираем тип выходного параметра[0m                       [90m# Functions.FunctionSteps.выбираемТипВыходногоПараметра()[0m
+
+
+# Created at 2023-02-03T13:59:10.122
+Unexpected IOException with stream:   [36mИ [0m[36mзаполняем имя входного параметра: [0m[36m[1m"FuncInputParameter"[0m [90m# Functions.FunctionSteps.заполняемИмяВходногоПараметра(java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.123
+Unexpected IOException with stream:   [36mИ [0m[36mзаполняем описание параметра: [0m[36m[1m"ParamDescription"[0m       [90m# Functions.FunctionSteps.заполняемОписаниеПараметра(java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.123
+Unexpected IOException with stream:   [36mИ [0m[36mвыбираем тип параметра: [0m[36m[1m"STRING"[0m                       [90m# Functions.FunctionSteps.выбираемТипПараметра(java.lang.String)[0m
+
+
+# Created at 2023-02-03T13:59:10.124
+Unexpected IOException with stream:   [36mИ [0m[36mнажимаем ОК[0m                                            [90m# BusinessObjects.BOSteps.нажимаемОК()[0m
+
+
+# Created at 2023-02-03T13:59:10.124
+Unexpected IOException with stream:   [36mТогда [0m[36mфункция создана[0m                                    [90m# Functions.FunctionSteps.функцияСоздана()[0m
+
+
+# Created at 2023-02-03T13:59:10.128
+Unexpected IOException: 7,1,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,\0421\043E\0437\0434\0430\043D\0438\0435 \0424\0443\043D\043A\0446\0438\0438,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=109.0.5414.120)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-44KA4E2'\002C ip: '10.20.33.86'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '18.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 109.0.5414.120\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Cgonch\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:51015}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ea533fce9002290084110d393d6e855f\000A
+
+
+# Created at 2023-02-03T13:59:10.130
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,\0411\0430\0437\043E\0432\044B\0439 \0444\0443\043D\043A\0446\0438\043E\043D\0430\043B.,null,null,null
+
+
+# Created at 2023-02-03T13:59:12.872
+Unexpected IOException with stream: [32m[1m┌──────────────────────────────────────────────────────────────────────────┐[0m
+[32m[1m│[0m View your Cucumber Report at:                                            [32m[1m│[0m
+[32m[1m│[0m [1m[36m[4mhttps://reports.cucumber.io/reports/64befd8c-3608-4822-8e96-7f7c977f4da5[0m [32m[1m│[0m
+[32m[1m│[0m                                                                          [32m[1m│[0m
+[32m[1m│[0m [1mThis report will self-destruct in 24h.[0m                                   [32m[1m│[0m
+[32m[1m│[0m Keep reports forever: [4m[1m[36mhttps://reports.cucumber.io/profile[0m                [32m[1m│[0m
+[32m[1m└──────────────────────────────────────────────────────────────────────────┘[0m
+

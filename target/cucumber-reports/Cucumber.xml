@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="9" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="4.158">
+    <testcase classname="Базовый функционал." name="Создание Бизнес объекта" time="2.812">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=110.0.5481.78)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b" type="org.openqa.selenium.WebDriverException"><![CDATA[Дано Авторизовались в системе...............................................failed
+Когда Открыта главная страница..............................................skipped
+И Нажимаем на кнопку Модуль Аналитики.......................................skipped
+И нажимаем на кнопку Бизнес объекты.........................................skipped
+И нажимаем на кнопку Создать конфигурацию...................................skipped
+И заполняем имя бизнес-объекта: "ATConfiguration"...........................skipped
+И заполняем описание бизнес-объекта: "ATDescription"........................skipped
+И заполняем поле: "Группа", "ROOT"..........................................skipped
+И выбираем состояние по умолчанию: "ATState"................................skipped
+И нажимаем ОК...............................................................skipped
+Тогда конфигурация создана..................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at conf.Config.setDriverRequest(Config.java:37)
+	at t1.TablesPageObject.OpenBasePage(TablesPageObject.java:12)
+	at t1.TablesSteps.авторизовалисьВСистеме(TablesSteps.java:19)
+	at ✽.Авторизовались в системе(classpath:tests/BO-Table-Selection-Creation.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Базовый функционал." name="Создание таблицы" time="0.084">
+        <failure message="Превышено максимальное время ожидания элемента&#10;no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//nz-tree-node-title [@title='Таблицы']&quot;}&#10;  (Session info: chrome=110.0.5481.78)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b&#10;*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Таблицы']}" type="org.opentest4j.AssertionFailedError"><![CDATA[И Нажимаем на кнопку Таблицы................................................failed
+И Нажимаем на кнопку создания таблицы.......................................skipped
+И заполняем название таблицы: "attable109"..................................skipped
+И заполняем описание таблицы: "111".........................................skipped
+И заполняем поле "Группа таблицы", "ROOT"...................................skipped
+И заполняем поле "Тип таблицы", "Вспомогательный"...........................skipped
+И нажать на кнопку добавления колонки.......................................skipped
+И заполнить название колонки: "111".........................................skipped
+И заполнить значение по умолчанию "112".....................................skipped
+И заполнить псевдоним "111".................................................skipped
+И заполняем тип данных "VARCHAR"............................................skipped
+И заполняем длину "551".....................................................skipped
+И нажимаем кнопку Создать...................................................skipped
+Тогда Создана таблица.......................................................skipped
+
+StackTrace:
+org.opentest4j.AssertionFailedError: Превышено максимальное время ожидания элемента
+no such element: Unable to locate element: {"method":"xpath","selector":"//nz-tree-node-title [@title='Таблицы']"}
+  (Session info: chrome=110.0.5481.78)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Таблицы']}
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at conf.helpclass.CheckElementToBeClickable(helpclass.java:29)
+	at conf.helpclass.clickElementClickable(helpclass.java:110)
+	at t1.TablesPageObject.ClickTablesButton(TablesPageObject.java:26)
+	at t1.TablesSteps.нажимаемНаКнопкуТаблицы(TablesSteps.java:33)
+	at ✽.Нажимаем на кнопку Таблицы(classpath:tests/BO-Table-Selection-Creation.feature:20)
+]]></failure>
+    </testcase>
+    <testcase classname="Базовый функционал." name="Создание выборки" time="0.11">
+        <failure message="Превышено максимальное время ожидания элемента&#10;no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//nz-tree-node-title [@title='Выборки']&quot;}&#10;  (Session info: chrome=110.0.5481.78)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b&#10;*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Выборки']}" type="org.opentest4j.AssertionFailedError"><![CDATA[И Нажимаем на кнопку Выборки................................................failed
+И нажимаем на кнопку создания выборки.......................................skipped
+И заполняем имя выборки: "ATselection"......................................skipped
+И заполняем описание выборки: "ATselect"....................................skipped
+И заполняем поля: "Группа", "ROOT"..........................................skipped
+И нажимаем на выбор из таблиц...............................................skipped
+И выбираем таблицу для выборки: "Table", "attable109".......................skipped
+И добавляем индекс: "attable"...............................................skipped
+И нажимаем кнопку Save......................................................skipped
+И нажимаем на кнопку выбора.................................................skipped
+И нажимаем выбор таблицы: "Table", "attable"................................skipped
+И нажимаем выбор колонки: "Column", "id"....................................skipped
+И добавляем индекс колонки: "attableid".....................................skipped
+И нажимаем кнопку сохранить.................................................skipped
+И нажимаем кнопку ОК........................................................skipped
+Тогда выборка создана.......................................................skipped
+
+StackTrace:
+org.opentest4j.AssertionFailedError: Превышено максимальное время ожидания элемента
+no such element: Unable to locate element: {"method":"xpath","selector":"//nz-tree-node-title [@title='Выборки']"}
+  (Session info: chrome=110.0.5481.78)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Выборки']}
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at conf.helpclass.CheckElementToBeClickable(helpclass.java:29)
+	at conf.helpclass.clickElementClickable(helpclass.java:110)
+	at Selections.SelectionsPageObject.ClickSelectionButton(SelectionsPageObject.java:10)
+	at Selections.SelectionsSteps.нажимаемНаКнопкуВыборки(SelectionsSteps.java:11)
+	at ✽.Нажимаем на кнопку Выборки(classpath:tests/BO-Table-Selection-Creation.feature:36)
+]]></failure>
+    </testcase>
+    <testcase classname="Базовый функционал." name="Редактирование конфигурации БО" time="0.124">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=110.0.5481.78)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b" type="org.openqa.selenium.WebDriverException"><![CDATA[Дано Авторизовались в системе...............................................failed
+Когда Открыта главная страница..............................................skipped
+И Нажимаем на кнопку Модуль Аналитики.......................................skipped
+И нажимаем на кнопку Бизнес объекты.........................................skipped
+И нажимаем на уже созданную конфигурацию "ATConfiguration"..................skipped
+И нажимаем на кнопку Редактировать конфигурацию.............................skipped
+И нажимаем на поле "Имя конфигурации" и изменяем название конфигурации на "ATconf".skipped
+И нажимаем Сохранить........................................................skipped
+Тогда конфигурация БО изменена..............................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at conf.Config.setDriverRequest(Config.java:37)
+	at t1.TablesPageObject.OpenBasePage(TablesPageObject.java:12)
+	at t1.TablesSteps.авторизовалисьВСистеме(TablesSteps.java:19)
+	at ✽.Авторизовались в системе(classpath:tests/BO-Table-Selection-Edit.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Базовый функционал." name="Редактирование выборки" time="0.104">
+        <failure message="Превышено максимальное время ожидания элемента&#10;no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//nz-tree-node-title [@title='Выборки']&quot;}&#10;  (Session info: chrome=110.0.5481.78)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b&#10;*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Выборки']}" type="org.opentest4j.AssertionFailedError"><![CDATA[И Нажимаем на кнопку Выборки................................................failed
+И Нажимаем на необходимую выборку "ATselection".............................skipped
+И нажимаем кнопку Редактировать выборку.....................................skipped
+И нажимаем на поле "Имя выборки" и изменяем название выборки на "ATselect"..skipped
+И нажимаем ОК...............................................................skipped
+Тогда выборка изменена......................................................skipped
+
+StackTrace:
+org.opentest4j.AssertionFailedError: Превышено максимальное время ожидания элемента
+no such element: Unable to locate element: {"method":"xpath","selector":"//nz-tree-node-title [@title='Выборки']"}
+  (Session info: chrome=110.0.5481.78)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Выборки']}
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at conf.helpclass.CheckElementToBeClickable(helpclass.java:29)
+	at conf.helpclass.clickElementClickable(helpclass.java:110)
+	at Selections.SelectionsPageObject.ClickSelectionButton(SelectionsPageObject.java:10)
+	at Selections.SelectionsSteps.нажимаемНаКнопкуВыборки(SelectionsSteps.java:11)
+	at ✽.Нажимаем на кнопку Выборки(classpath:tests/BO-Table-Selection-Edit.feature:26)
+]]></failure>
+    </testcase>
+    <testcase classname="Базовый функционал." name="Удаление выборки" time="0.137">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=110.0.5481.78)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b" type="org.openqa.selenium.WebDriverException"><![CDATA[Дано Авторизовались в системе...............................................failed
+Когда Открыта главная страница..............................................skipped
+И Нажимаем на кнопку Модуль Аналитики.......................................skipped
+И Нажимаем на кнопку Выборки................................................skipped
+И Нажимаем на необходимую выборку "ATselect"................................skipped
+И нажимаем на кнопку Удалить выборку........................................skipped
+И нажимаем кнопку КОК.......................................................skipped
+Тогда выборка удалена.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at conf.Config.setDriverRequest(Config.java:37)
+	at t1.TablesPageObject.OpenBasePage(TablesPageObject.java:12)
+	at t1.TablesSteps.авторизовалисьВСистеме(TablesSteps.java:19)
+	at ✽.Авторизовались в системе(classpath:tests/BO-Table-Selection-EditDelete.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Базовый функционал." name="Удаление таблицы" time="0.13">
+        <failure message="Превышено максимальное время ожидания элемента&#10;no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//nz-tree-node-title [@title='Таблицы']&quot;}&#10;  (Session info: chrome=110.0.5481.78)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b&#10;*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Таблицы']}" type="org.opentest4j.AssertionFailedError"><![CDATA[И Нажимаем на кнопку Таблицы................................................failed
+И нажимаем на необходимую таблицу "attable109"..............................skipped
+И нажимаем на кнопку удаления таблицы.......................................skipped
+И нажимаем на ОК............................................................skipped
+Тогда таблица удалена.......................................................skipped
+
+StackTrace:
+org.opentest4j.AssertionFailedError: Превышено максимальное время ожидания элемента
+no such element: Unable to locate element: {"method":"xpath","selector":"//nz-tree-node-title [@title='Таблицы']"}
+  (Session info: chrome=110.0.5481.78)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Таблицы']}
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at conf.helpclass.CheckElementToBeClickable(helpclass.java:29)
+	at conf.helpclass.clickElementClickable(helpclass.java:110)
+	at t1.TablesPageObject.ClickTablesButton(TablesPageObject.java:26)
+	at t1.TablesSteps.нажимаемНаКнопкуТаблицы(TablesSteps.java:33)
+	at ✽.Нажимаем на кнопку Таблицы(classpath:tests/BO-Table-Selection-EditDelete.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Базовый функционал." name="Удаление конфигурации БО" time="0.087">
+        <failure message="Превышено максимальное время ожидания элемента&#10;no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//nz-tree-node-title [@title='Бизнес объекты']&quot;}&#10;  (Session info: chrome=110.0.5481.78)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b&#10;*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Бизнес объекты']}" type="org.opentest4j.AssertionFailedError"><![CDATA[И нажимаем на кнопку Бизнес объекты.........................................failed
+И нажимаем на уже созданную конфигурацию "ATconf"...........................skipped
+И нажимаем на кнопку Удалить конфигурацию...................................skipped
+И нажимаем на кнопку ОК.....................................................skipped
+Тогда конфигурация БО удалена...............................................skipped
+
+StackTrace:
+org.opentest4j.AssertionFailedError: Превышено максимальное время ожидания элемента
+no such element: Unable to locate element: {"method":"xpath","selector":"//nz-tree-node-title [@title='Бизнес объекты']"}
+  (Session info: chrome=110.0.5481.78)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+*** Element info: {Using=xpath, value=//nz-tree-node-title [@title='Бизнес объекты']}
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at conf.helpclass.CheckElementToBeClickable(helpclass.java:29)
+	at conf.helpclass.clickElementClickable(helpclass.java:110)
+	at BusinessObjects.BOPageObject.ClickCreateButton(BOPageObject.java:9)
+	at BusinessObjects.BOSteps.НажимаемНаКнопкуБизнесОбъекты(BOSteps.java:12)
+	at ✽.нажимаем на кнопку Бизнес объекты(classpath:tests/BO-Table-Selection-EditDelete.feature:24)
+]]></failure>
+    </testcase>
+    <testcase classname="Базовый функционал." name="Создание Функции" time="0.135">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=110.0.5481.78)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eda181170db71313973abb934547d35b" type="org.openqa.selenium.WebDriverException"><![CDATA[Дано Авторизовались в системе...............................................failed
+Когда Открыта главная страница..............................................skipped
+И Нажимаем на кнопку Модуль Аналитики.......................................skipped
+И нажимаем на кнопку Функции................................................skipped
+И нажимаем на кнопку создать функцию........................................skipped
+И заполняем имя функции: "ATFunction".......................................skipped
+И выбираем группу функции: "Группа", "ROOT".................................skipped
+И заполняем описание функции: "Description".................................skipped
+И заполняем код функции "public static void function".......................skipped
+И выбираем тип выходного параметра: "Тип выходного параметра", "STRING".....skipped
+И добавляем входной параметр................................................skipped
+И заполняем имя входного параметра: "FuncInputParameter"....................skipped
+И заполняем описание параметра: "ParamDescription"..........................skipped
+И выбираем тип параметра: "STRING"..........................................skipped
+И нажимаем ОК...............................................................skipped
+Тогда функция создана.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at conf.Config.setDriverRequest(Config.java:37)
+	at t1.TablesPageObject.OpenBasePage(TablesPageObject.java:12)
+	at t1.TablesSteps.авторизовалисьВСистеме(TablesSteps.java:19)
+	at ✽.Авторизовались в системе(classpath:tests/Function-Scenario-Creation.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: Базовый функционал.
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.157 s <<< FAILURE! - in Базовый функционал.
+Создание Функции  Time elapsed: 0.155 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-44KA4E2', ip: '10.20.33.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.78, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\gonch\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eda181170db71313973abb934547d35b
+
